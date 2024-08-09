@@ -26,7 +26,7 @@ public class Roata90degreesArray {
             }
             System.out.println();
         }
-
+ sc.close();
 
     }
     public static void transpose(int arr[][]){
