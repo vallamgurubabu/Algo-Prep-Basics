@@ -29,5 +29,6 @@ public class String_middle {
             System.out.println(ans);
             spaces--;
         }
+        sc.close();
     }
 }
