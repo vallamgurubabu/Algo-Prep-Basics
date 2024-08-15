@@ -14,7 +14,7 @@ public class LargestCommonPrefix {
         sc.close();
     }
     public static String longestCommonPrefix(String[] strs) {
-        String prefix =strs[0];
+        String prefix = strs[0];
         if(strs.length == 0|| strs == null){
             return " ";
         }
@@ -27,11 +27,5 @@ public class LargestCommonPrefix {
             }
         }
         return prefix;
-    }
-    
-    
-    
-    
-    
-    
+    }   
 }
