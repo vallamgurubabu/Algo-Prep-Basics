@@ -11,8 +11,7 @@ public class FirstOccoranceOfSubString {
         sc.close();
     }
 
-public static int findSubstring(String str, String substring) {
-    return str.indexOf(substring);
-}
-
+    public static int findSubstring(String str, String substring) {
+        return str.indexOf(substring);
+    }
 }
