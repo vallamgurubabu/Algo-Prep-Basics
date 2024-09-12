@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.*;
 public class Product_except_itsself {
     public static void main (String args[]){

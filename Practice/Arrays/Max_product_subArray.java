@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Scanner;
 
 public class Max_product_subArray {

@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Scanner;
 public class SumRegion2DArray {
         public static void main(String[] args) {
