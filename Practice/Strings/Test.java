@@ -3,7 +3,14 @@ package Strings;
 import java.util.*;
 class Test{
     public static void main(String[] args) {
-        String [] words = {"abnbnb","apple","mango","banana","guva"};
+        //String [] words = {"abnbnb","apple","mango","banana","guva"};
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String [] words = new String[n];
+        for(int i=0;i<n;i++){
+            words[i] = sc.next();
+        }
+        sc.close();
         HashMap<String,Integer> ans = new HashMap<>();
         int len = words.length;
         for(int i=0;i<len;i++){
@@ -20,7 +27,6 @@ class Test{
             
         }
         System.out.println(an);
-
     }
     public static int distinctCount(String str){
         int count =0;
